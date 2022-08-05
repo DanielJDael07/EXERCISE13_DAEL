@@ -1,0 +1,23 @@
+
+$primary: #0b0505;
+$dark: beige;
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+
+$dael-theme-colors: (
+    "favorite1" : violet,
+    "favorite2" : orange
+);
+
+$theme-colors: map-merge($dael-theme-colors , $theme-colors );
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+
+
+
